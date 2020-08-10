@@ -1,5 +1,5 @@
 # gerenciamento_funcionario
-## Installation / Usage places API
+## Installation / Usage
 
 #### Dependência
 * Será necessário criar um ambiente virtual e preparalo com a instalação do requirements:
