@@ -36,7 +36,7 @@
     
 * Endpoint de funcionarios:
     * listagem de todos os funcionarios:
-        $url-to-api/funcionario/ - GET
+        - $url-to-api/funcionario/ - GET
 
         * resposta:
                     [
@@ -52,7 +52,7 @@
                 ]
 
     * listagem de um funcionario especifico:
-        $url-to-api/funcionario/<username> - GET
+        - $url-to-api/funcionario/<username> - GET
 
         * resposta:
                     {
@@ -66,7 +66,7 @@
                     }
     
     * criação de um funcionario:
-        $url-to-api/funcionario/ - POST
+        - $url-to-api/funcionario/ - POST
 
         * dados de envio para criação do funcionario:
                     {
@@ -91,7 +91,7 @@
                     }
 
     * update de um funcionario especifico:
-        $url-to-api/funcionario/<username> - PATCH
+        - $url-to-api/funcionario/<username> - PATCH
 
         * dados de envio para atualização do funcionario:
                     {
@@ -110,13 +110,13 @@
                     }
         
     * deleção de um funcionario especifico:
-        $url-to-api/funcionario/<username> - DELETE
+        - $url-to-api/funcionario/<username> - DELETE
 
         * este endpoint não retornará uma response
 
 * Endpoint de empresas:
     * listagem de todas as empresas:
-        $url-to-api/empresa/ - GET
+        - $url-to-api/empresa/ - GET
 
         * resposta:
                     [
@@ -130,7 +130,7 @@
                 ]
 
     * listagem de uma empresa especifica:
-        $url-to-api/empresa/<razao_social> - GET
+        - $url-to-api/empresa/<razao_social> - GET
 
         * resposta:
                     {
@@ -142,7 +142,7 @@
                     }
     
     * criação de um funcionario:
-        $url-to-api/empresa/ - POST
+        - $url-to-api/empresa/ - POST
 
         * dados de envio para criação da empresa:
                     {
@@ -163,7 +163,7 @@
                     }
 
     * update de uma empresa especifica:
-        $url-to-api/funcionario/<username> - PATCH
+        - $url-to-api/funcionario/<username> - PATCH
 
         * dados de envio para atualização da empresa:
                     {
@@ -180,7 +180,7 @@
                     }
         
     * deleção de um funcionario especifico:
-        $url-to-api/funcionario/<username> - DELETE
+        - $url-to-api/funcionario/<username> - DELETE
 
         * este endpoint não retornará uma response
 
